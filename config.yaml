@@ -15,16 +15,34 @@ settings:
   dayInHistogramNotOperational: ' incident(s)' # xx incident(s) recorded
 
 monitors:
-  - id: workers-cloudflare-com # unique identifier
-    name: workers.cloudflare.com
+  - id: NAES # unique identifier
+    name: naranjasamparo.net
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://naranjasamparo.net/' # URL to fetch
+    url: 'https://naranjasamparo.net/es' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
-
-  - id: www-cloudflare-com
+    
+    - id: NADE # unique identifier
+    name: orangenfrischnachhause.de
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://orangenfrischnachhause.de/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+    
+    - id: NAFR # unique identifier
+    name: naranjasamparo.fr
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://naranjasamparo.fr/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+  
+  - id: CRC-LASAFOR
     name: www.crclasafor.com
     description: 'Built for anything connected to the Internet.'
     url: 'https://www.cloudflare.com'
@@ -32,8 +50,32 @@ monitors:
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-  - id: blog-cloudflare-com
+- id: blog-NAES
     name: The Cloudflare Blog
-    url: 'https://orangenfrischnachhause.de/'
+    url: 'https://naranjasamparo.net/blog'
     method: GET
     expectStatus: 200
+
+- id: blog-NADE
+    name: The Cloudflare Blog
+    url: 'https://orangenfrischnachhause.de/blog'
+    method: GET
+    expectStatus: 200
+    
+- id: BOATIK # unique identifier
+    name: boatik.es
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://boatik.es' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
+    
+    - id: SailingTripsMallorca # unique identifier
+    name: sailingtripsmallorca.com
+    description: 'You write code. They handle the rest.' # default=empty
+    url: 'https://www.sailingtripsmallorca.com' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    linkable: false # allows the title to be a link, default=true
