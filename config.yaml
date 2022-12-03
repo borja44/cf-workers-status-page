@@ -18,7 +18,7 @@ monitors:
   - id: NAES # unique identifier
     name: NAES - Prod
     description: 'NAES' # default=empty
-    url: 'https://naranjasamparo.net/es' # URL to fetch
+    url: 'https://naranjasamparo.net/es/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: true # should fetch follow redirects, default=false
@@ -44,7 +44,7 @@ monitors:
   
   - id: blog-NAES
     name: NAES blog
-    url: 'https://naranjasamparo.net/blog'
+    url: 'https://naranjasamparo.net/blog/'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
@@ -52,7 +52,7 @@ monitors:
 
   - id: blog-NADE
     name: NADE blog
-    url: 'https://orangenfrischnachhause.de/blog'
+    url: 'https://orangenfrischnachhause.de/blog/'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
@@ -60,7 +60,7 @@ monitors:
     
   - id: blog-NAFR
     name: NAFR blog
-    url: 'https://naranjasamparo.fr/blog'
+    url: 'https://naranjasamparo.fr/blog/'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
