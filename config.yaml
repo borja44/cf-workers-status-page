@@ -24,7 +24,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-    - id: NADE # unique identifier
+  - id: NADE # unique identifier
     name: orangenfrischnachhause.de
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://orangenfrischnachhause.de/' # URL to fetch
@@ -33,7 +33,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-    - id: NAFR # unique identifier
+  - id: NAFR # unique identifier
     name: naranjasamparo.fr
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://naranjasamparo.fr/' # URL to fetch
@@ -43,26 +43,26 @@ monitors:
     linkable: false # allows the title to be a link, default=true
   
   - id: CRC-LASAFOR
-    name: www.crclasafor.com
+    name: crclasafor.com
     description: 'Built for anything connected to the Internet.'
-    url: 'https://www.cloudflare.com'
+    url: 'https://www.crclasafor.com'
     method: GET
     expectStatus: 200
     linkable: true # allows the title to be a link, default=true
 
-- id: blog-NAES
+  - id: blog-NAES
     name: The Cloudflare Blog
     url: 'https://naranjasamparo.net/blog'
     method: GET
     expectStatus: 200
 
-- id: blog-NADE
+  - id: blog-NADE
     name: The Cloudflare Blog
     url: 'https://orangenfrischnachhause.de/blog'
     method: GET
     expectStatus: 200
     
-- id: BOATIK # unique identifier
+  - id: BOATIK # unique identifier
     name: boatik.es
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://boatik.es' # URL to fetch
@@ -71,7 +71,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
     
-    - id: SailingTripsMallorca # unique identifier
+  - id: SailingTripsMallorca # unique identifier
     name: sailingtripsmallorca.com
     description: 'You write code. They handle the rest.' # default=empty
     url: 'https://www.sailingtripsmallorca.com' # URL to fetch
