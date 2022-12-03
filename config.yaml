@@ -17,16 +17,16 @@ settings:
 monitors:
   - id: NAES # unique identifier
     name: naranjasamparo.net
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'NAES' # default=empty
     url: 'https://naranjasamparo.net/es' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
     
   - id: NADE # unique identifier
     name: orangenfrischnachhause.de
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'NADE' # default=empty
     url: 'https://orangenfrischnachhause.de/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
@@ -35,47 +35,52 @@ monitors:
     
   - id: NAFR # unique identifier
     name: naranjasamparo.fr
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'NA-FR' # default=empty
     url: 'https://naranjasamparo.fr/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
   
   - id: CRC-LASAFOR
     name: crclasafor.com
-    description: 'Built for anything connected to the Internet.'
+    description: 'Centro Reconocimiento Medico La Safor.'
     url: 'https://www.crclasafor.com'
     method: GET
     expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-NAES
-    name: The Cloudflare Blog
+    name: NAES BLOG
     url: 'https://naranjasamparo.net/blog'
     method: GET
     expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
 
   - id: blog-NADE
-    name: The Cloudflare Blog
+    name: NADE BLOG
     url: 'https://orangenfrischnachhause.de/blog'
     method: GET
     expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
     
   - id: BOATIK # unique identifier
     name: boatik.es
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'BOATIK' # default=empty
     url: 'https://boatik.es' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
     
   - id: SailingTripsMallorca # unique identifier
     name: sailingtripsmallorca.com
-    description: 'You write code. They handle the rest.' # default=empty
+    description: 'Sailing Trips Mallorca.' # default=empty
     url: 'https://www.sailingtripsmallorca.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
