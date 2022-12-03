@@ -16,7 +16,7 @@ settings:
 
 monitors:
   - id: NAES # unique identifier
-    name: naranjasamparo.net
+    name: NAES - Prod
     description: 'NAES' # default=empty
     url: 'https://naranjasamparo.net/es' # URL to fetch
     method: GET # default=GET
@@ -25,16 +25,16 @@ monitors:
     linkable: true # allows the title to be a link, default=true
     
   - id: NADE # unique identifier
-    name: orangenfrischnachhause.de
+    name: NADE - Prod
     description: 'NADE' # default=empty
-    url: 'https://orangenfrischnachhause.de/' # URL to fetch
+    url: 'https://orangenfrischnachhause.de' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
     
   - id: NAFR # unique identifier
-    name: naranjasamparo.fr
+    name: NAFR - Prod
     description: 'NA-FR' # default=empty
     url: 'https://naranjasamparo.fr/' # URL to fetch
     method: GET # default=GET
@@ -42,17 +42,8 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
   
-  - id: CRC-LASAFOR
-    name: crclasafor.com
-    description: 'Centro Reconocimiento Medico La Safor.'
-    url: 'https://www.crclasafor.com'
-    method: GET
-    expectStatus: 200
-    followRedirect: true # should fetch follow redirects, default=false
-    linkable: true # allows the title to be a link, default=true
-
   - id: blog-NAES
-    name: NAES BLOG
+    name: NAES blog
     url: 'https://naranjasamparo.net/blog'
     method: GET
     expectStatus: 200
@@ -60,15 +51,23 @@ monitors:
     linkable: true # allows the title to be a link, default=true
 
   - id: blog-NADE
-    name: NADE BLOG
+    name: NADE blog
     url: 'https://orangenfrischnachhause.de/blog'
     method: GET
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     
+  - id: blog-NAFR
+    name: NAFR blog
+    url: 'https://naranjasamparo.fr/blog'
+    method: GET
+    expectStatus: 200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+    
   - id: BOATIK # unique identifier
-    name: boatik.es
+    name: Boatik.es - Prod
     description: 'BOATIK' # default=empty
     url: 'https://boatik.es' # URL to fetch
     method: GET # default=GET
@@ -77,10 +76,19 @@ monitors:
     linkable: true # allows the title to be a link, default=true
     
   - id: SailingTripsMallorca # unique identifier
-    name: sailingtripsmallorca.com
+    name: SailingTripsMallorca.com - Prod
     description: 'Sailing Trips Mallorca.' # default=empty
     url: 'https://www.sailingtripsmallorca.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
+    followRedirect: true # should fetch follow redirects, default=false
+    linkable: true # allows the title to be a link, default=true
+
+  - id: crclasafor
+    name: crclasafor
+    description: 'Centro Reconocimiento Medico La Safor.'
+    url: 'https://www.crclasafor.com'
+    method: GET
+    expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
