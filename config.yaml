@@ -18,14 +18,14 @@ monitors:
   - id: workers-cloudflare-com # unique identifier
     name: workers.cloudflare.com
     description: 'You write code. They handle the rest.' # default=empty
-    url: 'https://workers.cloudflare.com/' # URL to fetch
+    url: 'https://naranjasamparo.net/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
     linkable: false # allows the title to be a link, default=true
 
   - id: www-cloudflare-com
-    name: www.cloudflare.com
+    name: www.crclasafor.com
     description: 'Built for anything connected to the Internet.'
     url: 'https://www.cloudflare.com'
     method: GET
@@ -34,6 +34,6 @@ monitors:
 
   - id: blog-cloudflare-com
     name: The Cloudflare Blog
-    url: 'https://blog.cloudflare.com/'
+    url: 'https://orangenfrischnachhause.de/'
     method: GET
     expectStatus: 200
