@@ -92,3 +92,4 @@ monitors:
     expectStatus: 200
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
+    
