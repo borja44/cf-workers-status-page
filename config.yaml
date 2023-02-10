@@ -75,7 +75,7 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
     
-  - id: SailingTripsMallorca # unique identifier
+  - id: STM # unique identifier
     name: SailingTripsMallorca.com - Prod
     description: 'Sailing Trips Mallorca.' # default=empty
     url: 'https://www.sailingtripsmallorca.com' # URL to fetch
@@ -84,7 +84,7 @@ monitors:
     followRedirect: true # should fetch follow redirects, default=false
     linkable: true # allows the title to be a link, default=true
 
-   - id: Nautic Adventure # unique identifier
+   - id: NAUTIC # unique identifier
     name: nauticadventure.com - Prod
     description: 'Nautic Adventure' # default=empty
     url: 'https://www.nauticadventure.com' # URL to fetch
